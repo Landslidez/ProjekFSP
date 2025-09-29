@@ -74,7 +74,7 @@
                                     <td><?= $row['gender'] ?></td>
                                     <td><?= $row['tanggal_lahir'] ?></td>
                                     <td><?= $row['angkatan'] ?></td>
-                                    <td><img src="uploads/<?= $row['foto_extension'] ?>.jpeg" alt="foto" width="50"></td>
+                                    <td><img src="uploads/<?=$row['nrp']?>.<?= $row['foto_extention'] ?>" alt="foto" width="50"></td>
                                     <td>
                                         <a href="update_mhs.php?nrp=<?= $row['nrp'] ?>" class="btn">Update</a>
                                         <a href="delete_mhs.php?nrp=<?= $row['nrp'] ?>" class="btn">Delete</a>
@@ -84,7 +84,7 @@
                                 <tr>
                                     <td><?= $row['npk'] ?></td>
                                     <td><?= $row['nama'] ?></td>
-                                    <td><img src="uploads/<?= $row['foto_extension'] ?>.jpeg" alt="foto" width="50"></td>
+                                    <td><img src="uploads/<?= $row['npk']?>.<?= $row['foto_extension'] ?>" alt="foto" width="50"></td>
                                     <td>
                                         <a href="update_dosen.php?npk=<?= $row['npk'] ?>" class="btn">Update</a>
                                         <a href="delete_dosen.php?npk=<?= $row['npk'] ?>" class="btn">Delete</a>
