@@ -1,0 +1,102 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body.light {
+  background-color: white;
+  color: black;
+}
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+.head {
+  background-color: lightblue;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.head h1 {
+  margin: 0;
+  color: white;
+}
+
+.body {
+  padding: 20px;
+  min-height: calc(100vh - 120px);
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.switch {
+  margin: 20px 0;
+}
+
+.btn,
+.btn:visited {
+  display: inline-block;
+  background: black;
+  color: white !important;
+  padding: 12px 25px;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn.active {
+  background: lightblue !important;
+  color: white !important;
+}
+
+.toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.toggle-btn.light {
+  background-color: black;
+  color: white;
+}
+
+.toggle-btn.dark {
+  background-color: black;
+  color: white;
+}
